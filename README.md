@@ -33,9 +33,13 @@ API Endpoints to Test:
 GET http://localhost:8080/api/categories?page=3
 
 POST http://localhost:8080/api/categories (For creating a new category)
+
 GET http://localhost:8080/api/categories/{id} (For fetching category by id)
+
 PUT http://localhost:8080/api/categories/{id} (For updating category by id)
+
 DELETE http://localhost:8080/api/categories/{id} (For deleting category by id)
+
 Repeat similar steps for the product CRUD operations.
 
 Check Pagination:
